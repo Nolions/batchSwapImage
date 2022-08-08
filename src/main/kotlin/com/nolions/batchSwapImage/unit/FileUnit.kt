@@ -35,7 +35,7 @@ object FileUnit {
             .filter {
                 !it.isDirectory
             }.forEach {
-                println(it.path)
+//                println(it.path)
                 fileList.add(it)
             }
 
